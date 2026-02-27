@@ -1,0 +1,32 @@
+.app {
+  min-height: 100vh;
+  background: #141414;
+  color: #e5e5e5;
+}
+
+.main {
+  margin-left: 68px;
+  min-height: 100vh;
+}
+
+.rows {
+  padding-top: 0;
+}
+
+.rows-loading {
+  padding: 3rem 4%;
+  padding-left: calc(68px + 4%);
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.banner {
+  padding: 1rem 4%;
+  padding-left: calc(68px + 4%);
+  font-size: 1rem;
+}
+
+.banner--error {
+  background: rgba(229, 9, 20, 0.2);
+  color: #e50914;
+}

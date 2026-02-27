@@ -1,0 +1,72 @@
+.row {
+  padding-left: 68px;
+  padding-right: 4%;
+  margin-bottom: 2.5rem;
+}
+
+.row__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #e5e5e5;
+  margin: 0 0 0.75rem 0;
+  padding: 0;
+}
+
+.row__posters {
+  display: flex;
+  gap: 0.4rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 0.5rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.row__posters::-webkit-scrollbar {
+  height: 6px;
+}
+
+.row__posters::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+}
+
+.row__posters::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.row__posters::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.row__poster-wrap {
+  flex-shrink: 0;
+  width: clamp(140px, 15vw, 220px);
+  aspect-ratio: 2/3;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.row__poster-wrap:hover {
+  transform: scale(1.05);
+}
+
+.row__poster {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  background: #2f2f2f;
+}
+
+.row__poster--placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2f2f2f;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1rem;
+  font-weight: 600;
+}
