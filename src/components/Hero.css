@@ -9,7 +9,7 @@
   background-color: #141414;
   display: flex;
   align-items: flex-end;
-  padding-left: 68px;
+  padding-left: 4%;
   padding-bottom: 12%;
   padding-right: 4%;
 }
@@ -40,7 +40,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.15em;
-  color: #fff;
+  color: #e5e5e5;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
   display: block;
@@ -71,15 +71,14 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
-.hero__rating {
+.hero__match {
   font-weight: 600;
   color: #46d369;
 }
 
 .hero__cert {
-  padding: 0 0.25rem;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  font-size: 0.75rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
 }
 
 .hero__overview {

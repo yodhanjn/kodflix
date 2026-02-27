@@ -6,7 +6,7 @@ import {
   fetchPopular,
   fetchTopRated,
 } from './api/tmdb'
-import Sidebar from './components/Sidebar'
+import Header from './components/Header'
 import Hero from './components/Hero'
 import Row from './components/Row'
 import './App.css'
@@ -45,7 +45,7 @@ export default function App() {
         setRows([
           { title: 'New this week', items: nowPlaying.slice(0, 20) },
           { title: 'Trending Now', items: trending.slice(0, 20) },
-          { title: 'Popular on Netflix', items: popular.slice(0, 20) },
+          { title: 'Popular on KODFLIX', items: popular.slice(0, 20) },
           { title: 'Top Rated', items: topRated.slice(0, 20) },
         ])
       } catch (e) {
@@ -65,8 +65,8 @@ export default function App() {
 
   return (
     <div className="app">
-      <Sidebar />
       <main className="main">
+        <Header />
         <Hero featured={featured} />
         {error && (
           <div className="banner banner--error" role="alert">

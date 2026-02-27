@@ -3,9 +3,9 @@ import './Sidebar.css'
 export default function Sidebar() {
   return (
     <nav className="sidebar">
-      <a href="#" className="sidebar-logo" aria-label="Netflix Home">
+      <a href="#" className="sidebar-logo" aria-label="KODFLIX Home">
         <svg viewBox="0 0 24 24" fill="currentColor" className="sidebar-logo__svg">
-          <path d="M4 21V3h2.5v11L17.5 3h2.5v18h-2.5V10L6.5 21H4z" />
+          <path d="M4 21V3h2.5v7.5L14 3h3L9.5 12 17 21h-3l-5.5-7.5V21H4z" />
         </svg>
       </a>
 

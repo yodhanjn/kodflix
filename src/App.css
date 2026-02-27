@@ -5,8 +5,9 @@
 }
 
 .main {
-  margin-left: 68px;
+  margin-left: 0;
   min-height: 100vh;
+  padding-top: 64px;
 }
 
 .rows {
@@ -15,14 +16,12 @@
 
 .rows-loading {
   padding: 3rem 4%;
-  padding-left: calc(68px + 4%);
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.7);
 }
 
 .banner {
   padding: 1rem 4%;
-  padding-left: calc(68px + 4%);
   font-size: 1rem;
 }
 
